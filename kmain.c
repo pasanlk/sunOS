@@ -1,5 +1,6 @@
 #include "frame_buffer.h"
 #include "serial_port.h"
+#include "memory_seg.h"
 
 
     
@@ -10,5 +11,6 @@
     
     serial_write(0x3F8, ptr2, 14);
     fb_write(ptr2, 14);
+    segments_install_gdt();
     
     }
