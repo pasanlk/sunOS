@@ -10,7 +10,7 @@
     void kmain()
     {
 
-       //char arr[] = "Welcome supuni";
+       //char arr[] = "Welcome Pasan";
        //fb_move_cursor(6*80);
        //fb_write(arr, 14);
        //serial_write(arr, 14);
